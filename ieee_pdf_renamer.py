@@ -28,5 +28,5 @@ if len(pdf_files) > 0:
 		os.rename(old_path, new_path)
 		# plot result
 		print("Done. \"" + old_path + "\" -> \"" + new_path + "\"")
-else : # Not Found
+else: # Not Found
 	print("No PDF files detected.")
